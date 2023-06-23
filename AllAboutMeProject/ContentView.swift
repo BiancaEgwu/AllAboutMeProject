@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Text("All about me ")
+            Text("All about me! ")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(Color.blue)
@@ -27,12 +27,7 @@ struct ContentView: View {
                 .padding(0.0)
             
             
-            Button("Click Here for more Facts") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            }
-            .font(.title2)
-            .buttonStyle(.borderedProminent)
-            .tint(.gray)
+         
             
            
             
